@@ -1,0 +1,6 @@
+/* Non-critical CSS — loaded asynchronously via requestIdleCallback.
+   Place footer/popups/settings rules here when ready to defer them from common.css.
+   This file exists to avoid 404/MIME errors and is intentionally minimal. */
+
+/* Example safe non-critical rule (no layout change): */
+.sb-footer { will-change: auto; }
